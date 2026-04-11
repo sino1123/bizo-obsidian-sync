@@ -1,0 +1,10 @@
+# Obsidian cache/workspaces (conflicts often)
+.obsidian/workspace*
+.obsidian/cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# If you keep attachments elsewhere, ignore here (optional)
+# attachments/
