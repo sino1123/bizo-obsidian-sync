@@ -1,16 +1,18 @@
 # Directory structure
 
-- Reports/Daily/YYYY-MM-DD.md
-  - Daily IT sources report (3 topics)
+Year-based folders to keep things tidy.
 
-- Reports/Weekly/YYYY-Www.md
-  - Weekly summary distilled from daily reports
+## Daily IT sources report
+- `Reports/Daily/YYYY/YYYY-MM-DD.md`
 
-- Notion/Keywords/Daily/YYYY-MM-DD.md
-  - Daily random 3 topics + keywords from Notion
+## Weekly summaries (derived; daily files are preserved)
+- `Reports/Weekly/YYYY/YYYY-Www.md`  (ISO week)
 
-- Notion/Keywords/Weekly/YYYY-Www.md
-  - Weekly rollup from Notion keywords (optional)
+## Notion random keywords
+- `Notion/Keywords/Daily/YYYY/YYYY-MM-DD.md`
+
+## Notion weekly rollup (derived; daily files are preserved)
+- `Notion/Keywords/Weekly/YYYY/YYYY-Www.md`
 
 Notes:
 - Daily files are preserved (no deletion).
